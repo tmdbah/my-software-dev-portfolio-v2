@@ -30,10 +30,10 @@
 
     <!-- Include your CSS files here -->
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
 <body>
+    <!------------------------------------------------------ H E A D E R ---->
     <header>
         <!-- Add your website name or logo here -->
         <a href="index.html"><img src="img/CYSEC_DV_TMDBAH.png" width="150px" height="150px" alt="Logo"></a>
@@ -41,16 +41,19 @@
         <h2>Problem Solver, Critical Thinker, Developer ⌨️📱 and IT Specialist 🧑🏽‍💻🎥📸</h2>
         <h3>MSc Cybersecurity | BSc Business Administration | HTML | CSS | JavaScript | Java | Python</h3>
     </header>
+    <!------------------------------------------------------ N A V ---->
     <nav>
         <!-- Add your website navigation here -->
         <ul>
             <li><a href="#About">ABOUT</a></li>
             <li><a href="#XP">EXPERIENCE</a></li>
-            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#Projects">PROJECTS</a></li>
         </ul>
     </nav>
+    <!------------------------------------------------------ M A I N ---->
     <main>
         <!-- Add your main content here -->
+        <!------------------------------------------------------ A B O U T ---->
         <section id="About">
             <h2>ABOUT</h2>
             <p>▷ Curious problem-solver, web, mobile and software developer with experience creating responsive web applications suitable for mobile devices. Proficiency in HTML, CSS, JavaScript and Java.</p>
@@ -58,16 +61,56 @@
             <p>▷ Familiar with command line tools, Git and GitHub. Experience creating digital content such as Videography, Photography, Audio Recording/Engineering and Music Production using various tools such as Adobe Creative Suite, Final Cut Pro and Logic Pro.</p>
                 
             <p>▷ Rigorous training in best practices in various Cybersecurity and related domains such as Secure Programming & Penetration Testing, Usable Security & Privacy, Network & Information Security, Cloud Data Storage and Malware Analysis.</p>
+            <hr />
+        </section>
+        <!------------------------------------------------------ X P ---->
+        <section id="XP">
+            <h2>EXPERIENCE</h2>
+            <hr />
+        </section>
+        <!------------------------------------------------------ P R O J E C T S ---->
+        <section id="#Projects">
+            <h2>PROJECTS</h2>
+            <hr />
+        </section>
+        <!------------------------------------------------------ S I G N  U P ---->
+        <section id="Newsletter">
+            <h3>Sign Up for the TMDBAH Newsletter</h3>
+            <hr />
+            <form method="post">
+                <div>
+                    <label for="user_fname">First Name</label><br>
+                    <input type="text" id="user_fname" name="user_fname" required>
+                </div>
+                <div>
+                    <label for="user_lname">Last Name</label><br>
+                    <input type="text" id="user_lname" name="user_lname" required>
+                </div>
+                <div>
+                    <label for="user_email">Email</label><br>
+                    <input type="email" id="user_email" name="user_email" required>
+                </div>
+                <div>
+                    <label for="user_password">Password</label><br>
+                    <input type="password" id="user_password" name="user_password" required minlength="8">
+                </div>
+                <div>
+                    <label for="user_confirm_password">Confirm Password</label><br>
+                    <input type="password" id="user_confirm_password" name="user_confirm_password" required minlength="8">
+                </div>
+                <div>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
         </section>
     </main>
+    <!------------------------------------------------------ F O O T E R ---->
     <footer>
         <!-- Add copyright notices and other footer content here -->
         <p>Copyright TMDBAH</p>
     </footer>
-
     <!-------------------------------------------------- S C R I P T ---->
     <!-- Include your JavaScript files here -->
     <script src="js/script.js"></script>
-    
 </body>
 </html>
