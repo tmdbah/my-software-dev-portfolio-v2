@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font: 15px "Lato", sans-serif;
+}
+
 #logo {
     margin-right: auto;
 }
@@ -12,6 +16,10 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 10px;
+    /* Justification & Alignment */ 
+    justify-items: center;
+    text-align: center;
+    /* Background Properties */
     background-color: black;
     background-image: url('/img/b-rain.jpg');
     background-size: cover;
@@ -19,12 +27,16 @@
 }
 
 .header {
-    background-color: gray;
+    background-color: black;
     color: white;
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
     font-size: 150%;
+}
+
+.header:hover {
+    color: lime;
 }
 
 /* Nav Styles */
@@ -46,6 +58,9 @@
     text-align: center;
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: large;
+    
 }
 
 .nav_container a:hover {
