@@ -10,6 +10,7 @@ body {
     font: 15px "Lato", sans-serif;
     /* Background Properties */
     background-color: black;
+    color:white;
 }
 
 header {
@@ -19,8 +20,7 @@ header {
     background-repeat: no-repeat;
     /* Justification & Alignment */ 
     padding: 1em;
-    color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .headingSep {
@@ -53,7 +53,6 @@ main {
     background-image: url('/img/hue2.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    color: white;
     background-color: black;
     /* Justification & Alignment */ 
     text-align: center;
@@ -64,12 +63,16 @@ p {
     line-height: 2em;
 }
 
+h4 {
+    letter-spacing: .5em;
+}
+
 footer {
-    color:black;
     background-color: white;
     /* Justification & Alignment */ 
     text-align: center;
     padding: 1em;
+    color:black;
 }
 
 #logo {
@@ -94,10 +97,9 @@ footer {
     padding: 25px;
     text-align: center;
     text-decoration: none;
-    color: black;
     font-weight: 500;
     font-size: large;
-    
+    color:black;
 }
 
 .nav_container a:hover {
