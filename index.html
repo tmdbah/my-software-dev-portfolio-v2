@@ -33,6 +33,10 @@
 
     <!-- Include your CSS files here -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-------------------------------------------- I C O N  S C R I P T -->
+    <script src="https://kit.fontawesome.com/4d06c1f646.js" crossorigin="anonymous"></script>
+
 </head>
 <!---------------------------------------------------------- B O D Y ---->
 <body>
@@ -41,8 +45,8 @@
         <!-- Add your website navigation here -->
         <ul class="menu">
             <li class="logoTxt"><a href="index.html">TMDBAH</a></li>
-            <li class="item"><a href="#About">ABOUT</a></li>
-            <li class="item"><a href="#XP">EXPERIENCE</a></li>
+            <li class="item"><a href="#Skills">SKILLS</a></li>
+            <li class="item"><a href="#EDU">EDUCATION</a></li>
             <li class="item"><a href="#Projects">PROJECTS</a></li>
             <li class="toggle"><a href="#"><i class="fa fa-bars"></i></a></li>
         </ul>
@@ -50,45 +54,124 @@
     <!------------------------------------------------------ H E A D E R ---->
     <header>
         <!-- Add your website name or logo here -->
-        <img class="headerTxtStyle logoIcon" src="img/CYSEC_DV_TMDBAH.png" alt="TMDB Logo" width="150px" height="150px">
-        <h1 class="headerTxtStyle name">TJ Bah</h1>
-        <h2 class="headerTxtStyle headline">Problem Solver 🚧 | Critical Thinker 💭 | Developer ⌨️📱 | IT Specialist 🧑🏽‍💻</h2>
-        <h3 class="headerTxtStyle edu">🎓 MSc Cybersecurity | BSc Business Administration</h3>
+        <img class="headerTxtStyle logoIcon txtContrastOverlay fadeInUp-animation" src="img/CYSEC_DV_TMDBAH.png" alt="TMDB Logo" width="150px" height="150px">
+        <h1 class="headerTxtStyle name txtContrastOverlay fadeInUp-animation">TJ Bah</h1>
+        <h3 class="headerTxtStyle headline txtContrastOverlay fadeInUp-animation">Problem Solver 🚧 | Critical Thinker 💭 | Developer ⌨️📱 | IT Specialist 🧑🏽‍💻</h3>
+        <h3 class="headerTxtStyle txtContrastOverlay fadeInUp-animation">🎓 MSc Cybersecurity | BSc Business Administration</h3>
         <br>
     </header>
-    <div class="headingSep">
-        <h2>ABOUT</h2>
+    <div class="headingSep" id="Skills">
+        <h2>SKILLS</h2>
     </div>
     <!------------------------------------------------------ M A I N ---->
     <main>
         <!-- Add your main content here -->
         <!------------------------------------------------------ A B O U T ---->
-        <section id="About">
-            
-            <p>▷ Curious problem-solver, web, mobile and software developer with experience creating responsive web applications suitable for mobile devices.</p>
-
-            <p>▷ Familiar with command line tools, Git and GitHub. Experience creating digital content such as Videography, Photography, Audio Recording/Engineering and Music Production using various tools such as Adobe Creative Suite, Final Cut Pro and Logic Pro.</p>
-                
-            <p>▷ Rigorous training in best practices in various Cybersecurity and related domains such as Secure Programming & Penetration Testing, Usable Security & Privacy, Network & Information Security, Cloud Data Storage and Malware Analysis.</p>
-
-            <h4>SKILLS</h4>
-
-            <p>▷ HTML | CSS | JavaScript | PHP | Java | Python </p>
-
+        <section class="responsive-three-column-grid">
+            <article>
+                <p class="infoBox txtContrastOverlay">
+                    <span>▷ Creative problem-solver, web, mobile and software developer with experience creating responsive web applications suitable for mobile devices.<br/></span>
+                    <span>▷ HTML | CSS | JavaScript | PHP | Java | Python | React </span>
+                </p>
+            </article>
+            <article>
+                <p class="infoBox txtContrastOverlay">
+                    <span>▷ Familiar with command line tools, Git and GitHub. Experience creating digital content such as Videography, Photography, Audio Recording/Engineering and Music Production using various tools such as Adobe Creative Suite, Final Cut Pro and Logic Pro.</span>
+                </p>
+            </article>
+            <article>
+                <p class="infoBox txtContrastOverlay">
+                    <span>▷ Rigorous training in best practices in various Cybersecurity and related domains such as Secure Programming & Penetration Testing, Usable Security & Privacy, Network & Information Security, Cloud Data Storage and Malware Analysis.</span>
+                </p>
+            </article>
         </section>
-        <!------------------------------------------------------ X P ---->
-        <div class="headingSep" id="XP">
-            <h2>EXPERIENCE</h2>
+        <!------------------------------------------------------ E D U ---->
+        <div class="headingSep" id="EDU">
+            <h2>EDUCATION</h2>
         </div>
+        <section class="eduSection">
+            <article class="eduArticle">
+                <div class="edu">
+                    <p class="infoBox txtContrastOverlay">
+                        <b>University of North Carolina at Charlotte</b><br /><br />
+                        <span>Belk College of Business</span><br /><br />
+                    
+                        <span>Bachelors of Science in Business Administration</span><br />
+                        <span>Major in Management Information Systems</span><br /><br />
+                        <span>*JAN 2014 - MAY 2016</span><br /><br />
+                    </p>
+                    <br />
+                    <p class="infoBox txtContrastOverlay">
+                        <b>University of North Carolina at Charlotte</b><br /><br />
+                        <span>College of Computing and Informatics</span><br /><br />
+    
+                        <span>Masters of Science in Cybersecurity</span><br />
+                        <span>Major in Secure Software Development</span><br /><br />
+                        <span>JAN 2020 - DEC 2022</span><br />
+                    </p>
+                </div>
+            </article>
+        </section>
         <!------------------------------------------------------ P R O J E C T S ---->
         <div class="headingSep" id="Projects">
             <h2>PROJECTS</h2>
         </div>
+        <section>
+            <article>
+                <div class="cards">
+                    <div class="card txtContrastOverlay">
+                        <span>PORTFOLIO PROJECT v2</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>FINAL MOVIE ASSIGNMENT</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>REACT SIMPLE CALCULATOR APP</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>HAIR DAY SALON</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>COMPARISON-BASED SORTING ALGORITHMS</span>
+                        
+                        <!-- <a href="https://github.com/tmdbah/Android_discount_calculator_APP" target="blank"> <br />
+                        <span style="color: #ffffff;">> Code: </span><i class="fa-brands fa-github fa-sm" style="color: #ffffff;"></i></a> -->
+        
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>GRAPH ALGORITHMS & RELATED DATA STRUCTURES</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>DATA STRUCTURES & OOP CONCEPTS PRACTICE</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>ANDROID DISCOUNT CALCULATOR APP</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>OPENSSL PROJECT</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>DOCKER PROJECT</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>VPN PROJECT</span>
+                    </div>
+                    <div class="card txtContrastOverlay">
+                        <span>PORTFOLIO PROJECT v1</span>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <!------------------------------------------------------ F O O T E R ---->
     <footer>
         <!-- Add copyright notices and other footer content here -->
-        <p>Copyright TMDBAH</p>
+        <!-- Links and Social Media -->
+        <div class="contactUs">
+            <a class="socialLinks" href="https://github.com/tmdbah/" target="blank"><i class="fa fa-github"></i></a>
+            <a class="socialLinks" href="https://www.linkedin.com/in/tmdbah/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="socialLinks" href="/index.html" target="_blank"><i class="fa-regular fa-copyright fa-2xs"></i> copyright TMDBAH</a>
+        </div>
     </footer>
     <!-------------------------------------------------- S C R I P T ---->
     <!-- Include your JavaScript files here -->

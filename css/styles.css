@@ -16,7 +16,7 @@ body {
     background-color: black;
 }
 
-/* Nav Styles */
+/* NAV Styles */
 
 nav {
     background-color: white;
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-/* Mobile menu */
+/* Mobile NAV menu */
 
 .menu {
     display: flex;
@@ -69,7 +69,7 @@ a {
     display: block;
 }
 
-/* Tablet menu */
+/* Tablet NAV menu */
 
 @media all and (min-width: 700px) {
     .menu {
@@ -85,7 +85,7 @@ a {
     }
 }
 
-/* Desktop menu */
+/* Desktop NAV menu */
 
 @media all and (min-width: 960px) {
     .menu {
@@ -114,7 +114,7 @@ a {
 
 header {
     /* Background img Properties */
-    background-image: url('/img/b-rain.jpg');
+    background-image: url('/img/b-rain.png');
     background-size:cover;
     background-repeat: no-repeat;
     /* Justification & Alignment */ 
@@ -127,6 +127,7 @@ header {
     text-align: center;
     padding: 25px;
     color:black;
+    cursor:default;
 }
 
 .headerTxtStyle {
@@ -135,6 +136,7 @@ header {
     padding: 5px;
     border-radius: 3px;
     width: fit-content;
+    cursor:default;
 }
 
 .logoIcon {
@@ -142,9 +144,10 @@ header {
     margin-bottom: 125px;
 }
 
-.headerTxtStyle:hover, p:hover, h3:hover {
+.txtContrastOverlay:hover {
     color: lime;
     cursor:default;
+    background-color: hsla(0, 0%, 0%, 0.392);
 }
 
 main {
@@ -156,6 +159,102 @@ main {
     /* Justification & Alignment */ 
     text-align: center;
 }
+
+/* Three Column Grid */
+
+/* container */
+.responsive-three-column-grid {
+    display:block;
+}
+
+/* columns */
+.responsive-three-column-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.infoBox {
+    border: 1px solid white;
+    cursor:default;
+}
+
+.mainImg {
+    /* Center Header Logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Adjust Logo Size */
+    width: 40%;
+    border: 1px solid white;
+}
+
+/* EDU Section Styles */
+
+.eduSection {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.eduArticle {
+    flex: 1;
+    border-radius: 1rem;
+}
+
+main .eduArticle {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.edu {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    padding: 15px;
+  }
+
+  @media (min-width: 600px) {
+    .edu { grid-template-columns: repeat(1, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .edu { grid-template-columns: repeat(3, 1fr); }
+  }
+
+/* Project Section Styles */ 
+
+.card {
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+  }
+
+  .cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    padding: 15px;
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
 
 p {
     padding: 15px 30px 15px 30px;
@@ -173,3 +272,29 @@ footer {
     padding: 1em;
     color:black;
 }
+
+.contactUs {
+    display: block;
+}
+
+.socialLinks {
+    padding: 10px;
+}
+
+/* Fade in Animation */
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
+  
