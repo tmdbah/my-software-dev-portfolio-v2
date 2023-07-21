@@ -118,7 +118,7 @@ a {
 
 header {
     /* Background img Properties */
-    background-image: url('/img/b-rain.png');
+    background-image: url('/img/blkKeys.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     /* Justification & Alignment */ 
@@ -275,6 +275,10 @@ main .eduArticle {
     margin: 15px;
 }
 
+@media (max-width: 408px) {
+    .iconLinkStyles { margin: 0; }
+  }
+
   /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -299,7 +303,16 @@ main .eduArticle {
   }
   
   /* The Close Button */
-  .hdsClose, .cbsaClose, .sdpv2Close, .sdpv1Close, .rcaClose {
+  .hdsClose,
+   .cbsaClose,
+    .sdpv2Close,
+     .sdpv1Close,
+      .rcaClose,
+       .adcClose,
+        .gaClose, 
+         .dsClose,
+          .osslClose,
+           .dpClose {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -315,7 +328,17 @@ main .eduArticle {
   .sdpv1Close:hover,
   .sdpv1Close:focus,
   .rcaClose:hover,
-  .rcaClose:focus {
+  .rcaClose:focus,
+  .adcClose:hover,
+  .adcClose:focus,
+  .gaClose:hover,
+  .gaClose:focus,
+  .dsClose:hover,
+  .dsClose:focus,
+  .osslClose:hover,
+  .osslClose:focus,
+  .dpClose:hover,
+  .dpClose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;

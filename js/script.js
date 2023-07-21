@@ -184,3 +184,143 @@ window.onclick = function(event) {
     rcaModal.style.display = "none";
   }
 }
+
+/* -------------------------------------------------- adc Modal */ 
+
+// Get the modal
+var adcModal = document.getElementById("myAdcModal");
+
+// Get the button that opens the modal
+var adcBtn = document.getElementById("adcModal");
+
+// Get the <span> element that closes the modal
+var adcSpan = document.getElementsByClassName("adcClose")[0];
+
+// When the user clicks on the button, open the modal
+adcBtn.onclick = function() {
+  adcModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+adcSpan.onclick = function() {
+  adcModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == adcModal) {
+    adcModal.style.display = "none";
+  }
+}
+
+/* -------------------------------------------------- ga Modal */ 
+
+// Get the modal
+var gaModal = document.getElementById("myGaModal");
+
+// Get the button that opens the modal
+var gaBtn = document.getElementById("gaModal");
+
+// Get the <span> element that closes the modal
+var gaSpan = document.getElementsByClassName("gaClose")[0];
+
+// When the user clicks on the button, open the modal
+gaBtn.onclick = function() {
+  gaModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+gaSpan.onclick = function() {
+  gaModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == gaModal) {
+    gaModal.style.display = "none";
+  }
+}
+
+/* -------------------------------------------------- ds Modal */ 
+
+// Get the modal
+var dsModal = document.getElementById("myDsModal");
+
+// Get the button that opens the modal
+var dsBtn = document.getElementById("dsModal");
+
+// Get the <span> element that closes the modal
+var dsSpan = document.getElementsByClassName("dsClose")[0];
+
+// When the user clicks on the button, open the modal
+dsBtn.onclick = function() {
+  dsModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+dsSpan.onclick = function() {
+  dsModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == dsModal) {
+    dsModal.style.display = "none";
+  }
+}
+
+/* -------------------------------------------------- ossl Modal */ 
+
+// Get the modal
+var osslModal = document.getElementById("myOsslModal");
+
+// Get the button that opens the modal
+var osslBtn = document.getElementById("osslModal");
+
+// Get the <span> element that closes the modal
+var osslSpan = document.getElementsByClassName("osslClose")[0];
+
+// When the user clicks on the button, open the modal
+osslBtn.onclick = function() {
+  osslModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+osslSpan.onclick = function() {
+  osslModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == osslModal) {
+    osslModal.style.display = "none";
+  }
+}
+
+/* -------------------------------------------------- dp Modal */ 
+
+// Get the modal
+var dpModal = document.getElementById("myDpModal");
+
+// Get the button that opens the modal
+var dpBtn = document.getElementById("dpModal");
+
+// Get the <span> element that closes the modal
+var dpSpan = document.getElementsByClassName("dpClose")[0];
+
+// When the user clicks on the button, open the modal
+dpBtn.onclick = function() {
+  dpModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+dpSpan.onclick = function() {
+  dpModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == dpModal) {
+    dpModal.style.display = "none";
+  }
+}
