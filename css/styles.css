@@ -275,8 +275,11 @@ main .eduArticle {
     margin: 15px;
 }
 
-@media (max-width: 408px) {
-    .iconLinkStyles { margin: 0; }
+@media (max-width: 479px) {
+    .iconLinkStyles { 
+        margin: 0;
+        /* padding: 5px; */
+     }
   }
 
   /* The Modal (background) */
@@ -312,7 +315,9 @@ main .eduArticle {
         .gaClose, 
          .dsClose,
           .osslClose,
-           .dpClose {
+           .dpClose,
+            .vpnClose,
+             .hmpClose {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -338,7 +343,11 @@ main .eduArticle {
   .osslClose:hover,
   .osslClose:focus,
   .dpClose:hover,
-  .dpClose:focus {
+  .dpClose:focus,
+  .vpnClose:hover,
+  .vpnClose:focus,
+  .hmpClose:hover,
+  .hmpClose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;

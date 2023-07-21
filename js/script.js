@@ -324,3 +324,59 @@ window.onclick = function(event) {
     dpModal.style.display = "none";
   }
 }
+
+/* -------------------------------------------------- vpn Modal */ 
+
+// Get the modal
+var vpnModal = document.getElementById("myVpnModal");
+
+// Get the button that opens the modal
+var vpnBtn = document.getElementById("vpnModal");
+
+// Get the <span> element that closes the modal
+var vpnSpan = document.getElementsByClassName("vpnClose")[0];
+
+// When the user clicks on the button, open the modal
+vpnBtn.onclick = function() {
+  vpnModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+vpnSpan.onclick = function() {
+  vpnModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == vpnModal) {
+    vpnModal.style.display = "none";
+  }
+}
+
+/* -------------------------------------------------- hmp Modal */ 
+
+// Get the modal
+var hmpModal = document.getElementById("myHmpModal");
+
+// Get the button that opens the modal
+var hmpBtn = document.getElementById("hmpModal");
+
+// Get the <span> element that closes the modal
+var hmpSpan = document.getElementsByClassName("hmpClose")[0];
+
+// When the user clicks on the button, open the modal
+hmpBtn.onclick = function() {
+  hmpModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+hmpSpan.onclick = function() {
+  hmpModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == hmpModal) {
+    hmpModal.style.display = "none";
+  }
+}
